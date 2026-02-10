@@ -8,15 +8,14 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "outDir": "dist",
-    "rootDir": "src",
-    "declaration": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
     "strict": true,
     "skipLibCheck": true,
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "esModuleInterop": true
   },
   "include": [
-    "src"
+    "."
   ]
 }

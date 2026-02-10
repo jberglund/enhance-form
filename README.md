@@ -6,9 +6,30 @@ Without JavaScript the form works as a normal HTML form. With JavaScript, `<enha
 
 ## Install
 
-```
+```sh
 npm install enhance-form
+# or
+bun add enhance-form
 ```
+
+Or use it directly via a CDN:
+
+```html
+<script type="module" src="https://unpkg.com/enhance-form"></script>
+```
+
+## Quick Start (Demo)
+
+Want to see it in action? The demo runs with a single command:
+
+```sh
+bun install
+bun run demo
+```
+
+Open [http://localhost:3000](http://localhost:3000) to see a working example with per-field validation and Zod schemas.
+
+See the [demo README](./demo/README.md) for more details.
 
 ## Usage
 

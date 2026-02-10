@@ -1,0 +1,8 @@
+[run]
+# Use the tsconfig.json in the demo directory
+tsconfig = "tsconfig.json"
+
+[jsx]
+# Configure JSX to use Hono's JSX runtime instead of React
+runtime = "automatic"
+importSource = "hono/jsx"
